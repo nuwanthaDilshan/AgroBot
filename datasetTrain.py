@@ -15,5 +15,8 @@ f = open('dataset.txt', 'r', errors='ignore')
 raw = f.read()
 raw = raw.lower() #convert to lowercase
 
-send_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
+sent_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
 word_tokens = nltk.sent_tokenize(raw) #convert to list of words
+
+sent_tokens[:2]
+word_tokens[:5]
