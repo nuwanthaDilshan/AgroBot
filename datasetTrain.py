@@ -13,4 +13,7 @@ warnings.filterwarnings("ignore")
 f = open('dataset.txt', 'r', errors='ignore')
 
 raw = f.read()
-raw = raw.lower()
+raw = raw.lower() #convert to lowercase
+
+send_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
+word_tokens = nltk.sent_tokenize(raw) #convert to list of words
