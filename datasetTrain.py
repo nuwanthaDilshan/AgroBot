@@ -11,3 +11,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 f = open('dataset.txt', 'r', errors='ignore')
+
+raw = f.read()
+raw = raw.lower()
