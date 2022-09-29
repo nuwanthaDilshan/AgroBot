@@ -29,3 +29,18 @@ remove_punct_dict = dict((ord(punct), None)for punct in string.punctuation)
 
 def LemNormalize(text):
     return LemNormalize(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
+
+
+Introduce_Ans = ["My name is AgroBot.", "My name is AgroBot you can called me Agro.", "Im AgroBot :) ",
+                 "My name is AgroBot. and my nickname is Agro and I am happy to solve your queries :) "]
+GREETING_INPUTS = ("hello", "hi", "hiii", "hii", "hiiii",
+                   "hiiii", "greetings", "sup", "what's up", "hey",)
+GREETING_RESPONSES = ["hi", "hey", "hii there",
+                      "hi there", "hello", "I am glad! You are talking to me"]
+
+
+# Checking for greetings
+def greeting(sentence):
+    for word in sentence.split():
+        if word.lower() in GREETING_INPUTS:
+            return random.choice(GREETING_RESPONSES)
