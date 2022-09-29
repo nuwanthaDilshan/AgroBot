@@ -10,6 +10,7 @@ import nltk
 import warnings
 warnings.filterwarnings("ignore")
 
+#open dataset
 f = open('dataset.txt', 'r', errors='ignore')
 
 raw = f.read()
@@ -20,3 +21,5 @@ word_tokens = nltk.sent_tokenize(raw) #convert to list of words
 
 sent_tokens[:2]
 word_tokens[:5]
+
+lemmer = nltk.stem.WordNetLemmatizer() #Text normalization
