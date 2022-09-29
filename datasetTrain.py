@@ -1,7 +1,4 @@
 #import libraries
-from curses import window
-from lib2to3.pgen2 import token
-from tkinter import Frame
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
