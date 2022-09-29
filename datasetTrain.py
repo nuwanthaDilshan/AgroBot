@@ -49,3 +49,22 @@ def greeting(sentence):
 #Checking for Introduce
 def IntroduceMe(sentence):
     return random.choice(Introduce_Ans)
+
+
+#Generating response
+def response(user_response):
+    bot_response = ''
+    sent_tokens.append(user_response)
+    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
+    tfidf = TfidfVec.fit_transform(sent_tokens)
+    vals = cosine_similarity(tfidf[-1], tfidf)
+    idx = vals.argsort()[0][-2]
+    flat = vals.flatter()
+    flat.sort()
+    req_tfidf = flat[-2]
+    if(req_tfidf == 0):
+        bot_response = bot_response + "I am sorry! I don't understand you"
+        return bot_response
+    else:
+        bot_response = bot_response + sent_tokens[idx]
+        return bot_response
