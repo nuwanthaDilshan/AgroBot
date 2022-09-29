@@ -39,8 +39,13 @@ GREETING_RESPONSES = ["hi", "hey", "hii there",
                       "hi there", "hello", "I am glad! You are talking to me"]
 
 
-# Checking for greetings
+#Checking for greetings
 def greeting(sentence):
     for word in sentence.split():
         if word.lower() in GREETING_INPUTS:
             return random.choice(GREETING_RESPONSES)
+
+
+#Checking for Introduce
+def IntroduceMe(sentence):
+    return random.choice(Introduce_Ans)
