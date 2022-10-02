@@ -43,6 +43,9 @@ Basic_Q_2 = ("Okay", "okay","ok")
 Basic_Ans_2 = ["Is there anything else to know?"]
 Basic_Q_3 = ("no", "No","not yet", "Not yet","Nop","nop")
 Basic_Ans_3 = ["Okay Thank you Bye", "Have a nice day", "Bye"]
+Basic_Q_4 = ("Yes","yes","yeah","Yeah","Yep","Yep")
+Basic_Ans_4 = ["What","What else", "Tell me"]
+
 
 
 #Checking for greetings
@@ -75,6 +78,13 @@ def basic3(sentence):
     for word in Basic_Q_3:
         if sentence.lower() == word:
             return random.choice(Basic_Ans_3)
+
+
+# Checking for Basic_Q_34
+def basic4(sentence):
+    for word in Basic_Q_4:
+        if sentence.lower() == word:
+            return random.choice(Basic_Ans_4)
 
 
 #Generating response
@@ -116,6 +126,8 @@ def Agro(user_response):
                 return basic2(user_response)
             elif (basic3(user_response) != None):
                 return basic3(user_response)
+            elif (basic4(user_response) != None):
+                return basic4(user_response)
             else:
                 return response(user_response)
 
