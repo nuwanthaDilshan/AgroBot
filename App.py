@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 import tkinter.messagebox
-from datasetTrain import Agro
+from chatBoy import Agro
 import threading
 
 saved_username = ["You"]

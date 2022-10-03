@@ -31,7 +31,7 @@ def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 
 
-Introduce_Ans = ["My name is AgroBot.", "My name is AgroBot you can called me Agro.", "Im AgroBot :) ",
+Introduce_Ans = ["My name is AgroBot.", "My name is AgroBot you can called me Agro.", "I'm AgroBot :) ",
                  "My name is AgroBot. and my nickname is Agro and I am happy to solve your queries :) "]
 GREETING_INPUTS = ("hello", "hi", "hiii", "hii", "hiiii",
                    "hiiii", "greetings", "sup", "what's up", "hey",)
