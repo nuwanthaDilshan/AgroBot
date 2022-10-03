@@ -15,9 +15,8 @@ class ChatInterface(Frame):
         Frame.__init__(self, master)
         self.master = master
 
-        # sets default bg for top level windows
-        self.tl_bg = "#EEEEEE"
-        self.tl_bg2 = "#EEEEEE"
+        self.tl_bg = "#a6ffaa"
+        self.tl_bg2 = "#a6ffaa"
         self.tl_fg = "#000000"
         self.font = "Verdana 10"
 
@@ -28,16 +27,12 @@ class ChatInterface(Frame):
     # File
         file = Menu(menu, tearoff=0)
         menu.add_cascade(label="File", menu=file)
-       # file.add_command(label="Save Chat Log", command=self.save_chat)
         file.add_command(label="Clear Chat", command=self.clear_chat)
-      #  file.add_separator()
         file.add_command(label="Exit", command=self.chatexit)
 
     # Options
         options = Menu(menu, tearoff=0)
         menu.add_cascade(label="Options", menu=options)
-
-        # username
 
         # font
         font = Menu(options, tearoff=0)
@@ -53,7 +48,6 @@ class ChatInterface(Frame):
         options.add_cascade(label="Color Theme", menu=color_theme)
         color_theme.add_command(
             label="Default", command=self.color_theme_default)
-       # color_theme.add_command(label="Night",command=self.)
         color_theme.add_command(label="Grey", command=self.color_theme_grey)
         color_theme.add_command(
             label="Blue", command=self.color_theme_dark_blue)
@@ -62,13 +56,11 @@ class ChatInterface(Frame):
             label="Torque", command=self.color_theme_turquoise)
         color_theme.add_command(
             label="Hacker", command=self.color_theme_hacker)
-       # color_theme.add_command(label='Mkbhd',command=self.MKBHD)
 
         help_option = Menu(menu, tearoff=0)
         menu.add_cascade(label="Help", menu=help_option)
-        #help_option.add_command(label="Features", command=self.features_msg)
-        help_option.add_command(label="About PyBot", command=self.msg)
-        help_option.add_command(label="Develpoers", command=self.about)
+        help_option.add_command(label="About AgroBot", command=self.msg)
+        help_option.add_command(label="Develpoer", command=self.about)
 
         self.text_frame = Frame(self.master, bd=6)
         self.text_frame.pack(expand=True, fill=BOTH)
@@ -91,7 +83,6 @@ class ChatInterface(Frame):
         # entry field
         self.entry_field = Entry(self.entry_frame, bd=1, justify=LEFT)
         self.entry_field.pack(fill=X, padx=6, pady=6, ipady=3)
-        # self.users_message = self.entry_field.get()
 
         # frame containing send button and emoji button
         self.send_button_frame = Frame(self.master, bd=0)
@@ -129,11 +120,11 @@ class ChatInterface(Frame):
 
     def msg(self):
         tkinter.messagebox.showinfo(
-            "PyBOT v1.0", 'PyBOT is a chatbot for answering python queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding python language for new learners')
+            "AgroBot v1.0", 'AgroBot is a chatbot for answering Tea Cultivation problams\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding Tea Cultivation problams')
 
     def about(self):
         tkinter.messagebox.showinfo(
-            "PyBOT Developers", "1.Abhishek Ezhava\n2.Mayur Kadam\n3.Monis Khot\n4.Raj Vishwakarma")
+            "AgroBot Developer", "Nuwantha Dilshan")
 
     def send_message_insert(self, message):
         user_input = self.entry_field.get()
@@ -155,7 +146,6 @@ class ChatInterface(Frame):
         time.sleep(0)
         t2 = threading.Thread(target=self.playResponce, args=(ob,))
         t2.start()
-        #return ob
 
     def font_change_default(self):
         self.text_box.config(font="Verdana 10")
