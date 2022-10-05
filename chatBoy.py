@@ -9,16 +9,23 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #open dataset
-f = open('dataset.txt', 'r', errors='ignore')
+f = open('tea cultivation dataset1.txt', 'r', errors='ignore')
+m = open('tea cltivation dataset2.txt', 'r', errors='ignore')
 
 raw = f.read()
+rawone = m.read()
 raw = raw.lower() #convert to lowercase
+rawone = rawone.lower() #convert to lowercase
 
 sent_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
 word_tokens = nltk.sent_tokenize(raw) #convert to list of words
+sent_tokensone = nltk.sent_tokenize(rawone) #convert to list of sentences
+word_tokensone = nltk.sent_tokenize(rawone) #convert to list of words
 
 sent_tokens[:2]
+sent_tokensone[:2]
 word_tokens[:5]
+word_tokensone[:5]
 
 lemmer = nltk.stem.WordNetLemmatizer() #Text normalization
 
@@ -106,6 +113,25 @@ def response(user_response):
         return bot_response
 
 
+#Generating response
+def responseone(user_response):
+    bot_response = ''
+    sent_tokensone.append(user_response)
+    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
+    tfidf = TfidfVec.fit_transform(sent_tokensone)
+    vals = cosine_similarity(tfidf[-1], tfidf)
+    idx = vals.argsort()[0][-2]
+    flat = vals.flatten()
+    flat.sort()
+    req_tfidf = flat[-2]
+    if(req_tfidf == 0):
+        bot_response = bot_response + "I am sorry! I don't understand you"
+        return bot_response
+    else:
+        bot_response = bot_response + sent_tokensone[idx]
+        return bot_response
+
+
 def Agro(user_response):
     user_response = user_response.lower()
     keyword = " module "
@@ -116,7 +142,9 @@ def Agro(user_response):
         if (user_response == 'thanks' or user_response == 'thank you'):
             return "You are welcome.."
         else:
-            if (greeting(user_response) != None):
+            if (user_response.find(keyword) != -1 or user_response.find(keywordone) != -1 or user_response.find(keywordsecond) != -1 != None):
+                return responseone(user_response)
+            elif (greeting(user_response) != None):
                 return greeting(user_response)
             elif (user_response.find("your name") != -1 or user_response.find(" your name") != -1 or user_response.find("your name ") != -1 or user_response.find(" your name ") != -1):
                 return IntroduceMe(user_response)
