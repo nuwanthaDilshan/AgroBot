@@ -9,8 +9,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #open dataset
-f = open('tea cultivation dataset1.txt', 'r', errors='ignore')
-m = open('tea cltivation dataset2.txt', 'r', errors='ignore')
+f = open('tea_cultivation_dataset2.txt', 'r', errors='ignore')
+m = open('tea_cultivation_dataset1.txt', 'r', errors='ignore')
 
 raw = f.read()
 rawone = m.read()
