@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 import tkinter.messagebox
-from chatBot import Agro
+from chatBoy import Agro
 import threading
 
 saved_username = ["You"]
@@ -144,7 +144,7 @@ class ChatInterface(Frame):
             str(time.strftime("Last message sent: " + '%B %d, %Y' + ' at ' + '%I:%M %p')))
         self.entry_field.delete(0, END)
         time.sleep(0)
-        t2 = threading.Thread(target=self.playResponce, args=(ob,))
+        t2 = threading.Thread(target=self.playResponse, args=(ob,))
         t2.start()
 
     def font_change_default(self):
