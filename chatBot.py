@@ -81,20 +81,17 @@ Basic_Ans_4 = ["What","What else", "Tell me"]
 
 
 small_talk_responses = {
-'how are you': 'I am fine. Thankyou for asking ',
-'how are you doing': 'I am fine. Thankyou for asking ',
+'how are you': 'I am fine. Thank you for asking ',
+'how are you doing': 'I am fine. Thank you for asking ',
 'how do you do': 'I am great. Thanks for asking ',
-'how are you holding up': 'I am fine. Thankyou for asking ',
-'how is it going': 'It is going great. Thankyou for asking ',
+'how are you holding up': 'I am fine. Thank you for asking ',
 'good morning': 'Good Morning ',
 'good afternoon': 'Good Afternoon ',
 'good evening': 'Good Evening ',
 'good day': 'Good day to you too ',
 'whats up': 'The sky ',
-'sup': 'The sky ',
-'thanks': 'Dont mention it. You are welcome ',
-'thankyou': 'Dont mention it. You are welcome ',
-'thank you': 'Dont mention it. You are welcome '
+'thank': 'Dont mention it. You are welcome ',
+'thankyou': 'Dont mention it. You are welcome '
 }
 
 small_talk = small_talk_responses.values()
@@ -228,25 +225,25 @@ def response(user_response):
 
 
 #Generating response
-def responseone(user_response):
-    bot_response = ''
-    sent_tokensone.append(user_response)
+# def responseone(user_response):
+#     bot_response = ''
+#     sent_tokensone.append(user_response)
     
     
-    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
+#     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
     
-    tfidf = TfidfVec.fit_transform(sent_tokensone)
-    vals = cosine_similarity(tfidf[-1], tfidf)
-    idx = vals.argsort()[0][-2]
-    flat = vals.flatten()
-    flat.sort()
-    req_tfidf = flat[-2]
-    if(req_tfidf == 0):
-        bot_response = bot_response + "I am sorry! I don't understand you"
-        return bot_response
-    else:
-        bot_response = bot_response + sent_tokensone[idx]
-        return bot_response
+#     tfidf = TfidfVec.fit_transform(sent_tokensone)
+#     vals = cosine_similarity(tfidf[-1], tfidf)
+#     idx = vals.argsort()[0][-2]
+#     flat = vals.flatten()
+#     flat.sort()
+#     req_tfidf = flat[-2]
+#     if(req_tfidf == 0):
+#         bot_response = bot_response + "I am sorry! I don't understand you"
+#         return bot_response
+#     else:
+#         bot_response = bot_response + sent_tokensone[idx]
+#         return bot_response
 
 
 def Agro(user_response):
