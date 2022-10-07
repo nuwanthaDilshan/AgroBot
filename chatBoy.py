@@ -86,9 +86,9 @@ small_talk_responses = {
 'how do you do': 'I am great. Thanks for asking ',
 'how are you holding up': 'I am fine. Thankyou for asking ',
 'how is it going': 'It is going great. Thankyou for asking ',
-'goodmorning': 'Good Morning ',
-'goodafternoon': 'Good Afternoon ',
-'goodevening': 'Good Evening ',
+'good morning': 'Good Morning ',
+'good afternoon': 'Good Afternoon ',
+'good evening': 'Good Evening ',
 'good day': 'Good day to you too ',
 'whats up': 'The sky ',
 'sup': 'The sky ',
@@ -198,35 +198,6 @@ def cos_sim(a, b): #tf_doc, tf_query
       return k
 
 
-# #Generating response
-# def response(user_response):
-#     bot_response = ''
-    
-#     # find special keywords in user input / user_response then try to generate the bot response accordingly
-#     # sent_tokens.append(user_response) #??
-    
-#     user_response = [user_response]
-    
-#     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
-    
-    
-#     # tfidf = TfidfVec.fit_transform(sent_tokens)
-#     tfidf = TfidfVec.fit_transform(user_response)
-#     vals = cosine_similarity(tfidf[-1], tfidf)
-#     idx = vals.argsort()[0][-2]
-#     flat = vals.flatten()
-#     flat.sort()
-    
-#     req_tfidf = flat[-2]
-#     if(req_tfidf == 0):
-#         bot_response = bot_response + "I am sorry! I don't understand you"
-#         return bot_response
-#     else:
-#         bot_response = bot_response + sent_tokens[idx]
-#         return bot_response
-
-# https://medium.com/analytics-vidhya/a-simple-chatbot-using-python-and-nltk-c413b40e9441
-
 #Generating response lemos
 def response(user_response):
     bot_response = ''
@@ -280,17 +251,11 @@ def responseone(user_response):
 
 def Agro(user_response):
     user_response = user_response.lower()
-    # keyword = " module "
-    # keywordone = " module"
-    # keywordsecond = "module "
 
     if (user_response != 'bye'):
         if (user_response == 'thanks' or user_response == 'thank you'):
             return "You are welcome.."
         else:
-            # if (user_response.find(keyword) != -1 or user_response.find(keywordone) != -1 or user_response.find(keywordsecond) != -1 != None):
-            # if (user_response.find(keyword) != -1 or user_response.find(keywordone) != -1 or user_response.find(keywordsecond) != -1):
-            #     return responseone(user_response)
             if (greeting(user_response) != None):
                 return greeting(user_response)
             elif (user_response.find("your name") != -1 or user_response.find(" your name") != -1 or user_response.find("your name ") != -1 or user_response.find(" your name ") != -1):
