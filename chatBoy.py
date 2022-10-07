@@ -9,7 +9,7 @@ import string
 import numpy as np
 import nltk
 
-# nltk.download('wordnet')
+
 
 # import nltk
 # from nltk.stem import WordNetLemmatizer
