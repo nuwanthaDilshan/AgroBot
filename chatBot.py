@@ -76,7 +76,7 @@ Basic_Q_2 = ("Okay", "okay","ok")
 Basic_Ans_2 = ["Is there anything else to know?"]
 Basic_Q_3 = ("no", "No","not yet", "Not yet","Nop","nop")
 Basic_Ans_3 = ["Okay Thank you Bye", "Have a nice day", "Bye"]
-Basic_Q_4 = ("Yes","yes","yeah","Yeah","Yep","Yep")
+Basic_Q_4 = ("Yes","yes","yeah","Yeah","Yep","yep")
 Basic_Ans_4 = ["What","What else", "Tell me"]
 
 
