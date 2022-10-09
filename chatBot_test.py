@@ -19,7 +19,7 @@ class test(unittest.TestCase):
         self.assertIsInstance(chatBot.basic4("yep"), str)
     
     def test_Agro(self):
-        self.assertIsInstance(chatBot.response("what type of desises"), str)
+        self.assertIsInstance(chatBot.response("what is propogation in tea"), str)
 
 
 if __name__ == "__main__":

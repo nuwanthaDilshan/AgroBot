@@ -224,26 +224,26 @@ def response(user_response):
     #     return bot_response
 
 
-#Generating response
-# def responseone(user_response):
-#     bot_response = ''
-#     sent_tokensone.append(user_response)
+# Generating response
+def responseone(user_response):
+    bot_response = ''
+    sent_tokensone.append(user_response)
     
     
-#     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
+    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
     
-#     tfidf = TfidfVec.fit_transform(sent_tokensone)
-#     vals = cosine_similarity(tfidf[-1], tfidf)
-#     idx = vals.argsort()[0][-2]
-#     flat = vals.flatten()
-#     flat.sort()
-#     req_tfidf = flat[-2]
-#     if(req_tfidf == 0):
-#         bot_response = bot_response + "I am sorry! I don't understand you"
-#         return bot_response
-#     else:
-#         bot_response = bot_response + sent_tokensone[idx]
-#         return bot_response
+    tfidf = TfidfVec.fit_transform(sent_tokensone)
+    vals = cosine_similarity(tfidf[-1], tfidf)
+    idx = vals.argsort()[0][-2]
+    flat = vals.flatten()
+    flat.sort()
+    req_tfidf = flat[-2]
+    if(req_tfidf == 0):
+        bot_response = bot_response + "I am sorry! I don't understand you"
+        return bot_response
+    else:
+        bot_response = bot_response + sent_tokensone[idx]
+        return bot_response
 
 
 def Agro(user_response):

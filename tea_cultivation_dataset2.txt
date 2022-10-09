@@ -1,12 +1,12 @@
-basic requiremet -
+basic requiremet  -
 Tea grows best in warm and humid climates It will tolerate temperatures between 14 and 27°C (57.2–80.6°F) with 18–20°C (64.4–68°F) being optimum
 Tea plants will not tolerate frost and mean temperatures should not fall below 13°C (55.4°F) or exceed 29°C (84.2°F) Tea grows optimally in deep, well-draining, tropical red soils with an acidic pH between 4.5 and 6.0 
 Tea requires an average annual rainfall of 1600 mm per year distributed evenly throughout the growing season In growing regions that experience a long dry season, tea plants require shading to increase the humidity around the plants. 
 
 propogation -
-propogationTea is propagated from seed or rooted leaf cuttings Good quality seeds are selected by immersing in water for 30 minutes and selecting the seeds which sink
+propogation Tea is propagated from seed or rooted leaf cuttings Good quality seeds are selected by immersing in water for 30 minutes and selecting the seeds which sink
 Seeds are commonly germinated by placing them between wet cloths Seeds which successfully germinate are transferred to a nursery bed to grow for 2–3 years
-Before transplanting to the field, the plants are cut back to a height of 15 cm (6.0 in). Leaf cuttings are also used to establish new tea plantations
+Before transplanting to the field, the plants are cut back to a height of 15 cm (6.0 in) Leaf cuttings are also used to establish new tea plantations
 Single node cuttings are taken from the desired variety and rooted in polyethylene bags containing soil by firmly pressing the stem into the soil
 The bags are then placed in a shaded area and watered regularly New tea plants produced from rooted cuttings are usually planted out in the field after 6–9 months
 Tea can be planted as single rows, double rows or as a hedge Plantations established on slopes are planted on contour rows
@@ -18,7 +18,7 @@ Newly planted tea plantations must be kept free from weeds while the tea plants 
 Tea plants should be pruned to encourage the production of lateral branches Busjes are shaped by tipping and thinning of branches to create the desired shape
 Pruning should be maintained throughout the life of the plantation to keep the plants a manageable size and maintain productivity
 pruning is best carried out when the plants are dormant where possible If trees do not have a dormant period then they should be pruned in winter or after the dry period depending on geographic location
-The tree clippings can be left in the centers of the rows to acts as an organic mulch. Tea plantations are usually fertilized 2–3 times per year
+The tree clippings can be left in the centers of the rows to acts as an organic mulch Tea plantations are usually fertilized 2–3 times per year
 The amount of each nutrient added to the soil will depend on the soil’s own deficiencies and should ideally be based on the results of soil testing or by testing the leaves for nutrient deficiencies.
 
 Harvesting 
