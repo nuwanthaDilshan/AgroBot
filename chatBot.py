@@ -9,13 +9,6 @@ import string
 import numpy as np
 import nltk
 
-# nltk.download('wordnet')
-
-# import nltk
-# from nltk.stem import WordNetLemmatizer
-# nltk.download('popular', quiet=True) # for downloading popular      
-# # packages
-
 # # * first-time use only
 # nltk.download('punkt') 
 # nltk.download('wordnet')
@@ -46,11 +39,6 @@ word_tokensone = nltk.sent_tokenize(rawone) #convert to list of words
 
 # print(sent_tokensone)
 print(word_tokens)
-
-# sent_tokens[:2]
-# sent_tokensone[:2]
-# word_tokens[:5]
-# word_tokensone[:5]
 
 lemmer = nltk.stem.WordNetLemmatizer() #Text normalization
 
@@ -145,15 +133,6 @@ def basic4(sentence):
     for word in Basic_Q_4:
         if sentence.lower() == word:
             return random.choice(Basic_Ans_4)
-        
-# f = open('Dataset.csv', 'r', encoding='utf-8')
-# reader = csv.reader(f)
-# corpus = {}
-# for row in reader:
-#    corpus[row[0]] = {row[1]: row[2]}
-   
-# all_text = corpus.values()
-# all_text = [str (item) for item in all_text]
 
 all_text = word_tokens
 
@@ -164,10 +143,6 @@ def stem_tfidf(doc, query):
    p_stemmer = PorterStemmer()
    
    tf = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
-
-   
-   # tf = TfidfVectorizer(use_idf=True, sublinear_tf=True, stop_words='english')
-   
    stemmed_doc = [p_stemmer.stem(w) for w in doc]
    stemmed_query = [p_stemmer.stem(w) for w in query]
    
@@ -187,9 +162,7 @@ def cos_sim(a, b): #tf_doc, tf_query
       
       ans = ' '.join(ans)
       return ans
-      # for item in ans:
-      #    c, d = item.split(':')
-      #    return d
+
    else:
       k = 'I am sorry, I cannot help you with this one. Hope to in the future. Cheers :)'
       return k
@@ -197,16 +170,6 @@ def cos_sim(a, b): #tf_doc, tf_query
 
 #Generating response lemos
 def response(user_response):
-    bot_response = ''
-    
-    # find special keywords in user input / user_response then try to generate the bot response accordingly
-    # sent_tokens.append(user_response) #??
-    
-    # user_response = [user_response]
-    
-    # TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
-    
-    
     a, b = stem_tfidf(all_text, user_response)
     g = cos_sim(a, b)
     # print('\nNate: '+g)
@@ -214,38 +177,8 @@ def response(user_response):
     print(g)
     
     return g
-    
-    # req_tfidf = flat[-2]
-    # if(req_tfidf == 0):
-    #     bot_response = bot_response + "I am sorry! I don't understand you"
-    #     return bot_response
-    # else:
-    #     bot_response = bot_response + sent_tokens[idx]
-    #     return bot_response
 
-
-# Generating response
-def responseone(user_response):
-    bot_response = ''
-    sent_tokensone.append(user_response)
-    
-    
-    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
-    
-    tfidf = TfidfVec.fit_transform(sent_tokensone)
-    vals = cosine_similarity(tfidf[-1], tfidf)
-    idx = vals.argsort()[0][-2]
-    flat = vals.flatten()
-    flat.sort()
-    req_tfidf = flat[-2]
-    if(req_tfidf == 0):
-        bot_response = bot_response + "I am sorry! I don't understand you"
-        return bot_response
-    else:
-        bot_response = bot_response + sent_tokensone[idx]
-        return bot_response
-
-
+#all responses
 def Agro(user_response):
     user_response = user_response.lower()
 
