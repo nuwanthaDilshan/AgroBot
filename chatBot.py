@@ -135,7 +135,6 @@ def basic4(sentence):
             return random.choice(Basic_Ans_4)
 
 all_text = word_tokens
-
 # print(all_text)
 
 def stem_tfidf(doc, query):
@@ -175,7 +174,6 @@ def response(user_response):
     # print('\nNate: '+g)
     print('Nate')
     print(g)
-    
     return g
 
 #all responses
