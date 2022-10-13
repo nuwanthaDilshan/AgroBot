@@ -4,8 +4,8 @@ import tkinter.messagebox
 from chatBot import Agro
 import threading
 
-saved_username = ["You"]
-ans = ["AgroBot"]
+# username = ["You"]
+# ans = ["AgroBot"]
 window_size = "520x520"
 
 
