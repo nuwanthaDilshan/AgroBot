@@ -1,4 +1,4 @@
-basic requirement of Tea grows best in warm and humid climates. It will tolerate temperatures between 14 and 27°C (57.2–80.6°F) with 18–20°C (64.4–68°F) being optimum. 
+basic requirement of Tea grows best in warm and humid climates It will tolerate temperatures between 14 and 27°C (57.2–80.6°F) with 18–20°C (64.4–68°F) being optimum. 
 Tea plants will not tolerate frost and mean temperatures should not fall below 13°C (55.4°F) or exceed 29°C (84.2°F). Tea grows optimally in deep, well-draining, tropical red soils with an acidic pH between 4.5 and 6.0. 
 Tea requires an average annual rainfall of 1600 mm per year distributed evenly throughout the growing season. In growing regions that experience a long dry season, tea plants require shading to increase the humidity around the plants. 
 
@@ -11,7 +11,7 @@ Tea can be planted as single rows, double rows or as a hedge Plantations establi
 Seedlings or cuttings are usually planted 60 cm (24 in) apart, allowing 1.5 m (5 ft) between rows. The tea plants are often interplanted with legumes or grasses to conserve soil moisture and prevent soil erosion. 
 Shade trees are utilized in tea plantations grown at lower altitudes. 
 
-General care and maintenance of tea,Newly planted tea plantations must be kept free from weeds while the tea plants establish. Weeding should be done by hand until the canopy closes and shades out weeds 
+General care and maintenance of tea,Newly planted tea plantations must be kept free from weeds while the tea plants establish Weeding should be done by hand until the canopy closes and shades out weeds 
 Tea plants should be pruned to encourage the production of lateral branches Busjes are shaped by tipping and thinning of branches to create the desired shape 
 Pruning should be maintained throughout the life of the plantation to keep the plants a manageable size and maintain productivity
 pruning is best carried out when the plants are dormant where possible If trees do not have a dormant period then they should be pruned in winter or after the dry period depending on geographic location
@@ -21,17 +21,15 @@ The amount of each nutrient added to the soil will depend on the soil’s own de
 Harvesting Tea is harvested by “plucking” which involves the removal of the youngest leaves at the shoot terminals The terminal bud is removed along with the two leaves directly below (fine plucking) or the bud and three leaves (coarse plucking)
 The younger leaves have the best flavor and removing three leaves increases production but diminishes the overall quality by including an older leaf Tea plants are plucked by hand by graspi.
 
-Blister blight, gray blight, brown blight, twig dieback, stem cankers, and root rots are tea Diseases.
-
 Blister blight is The causal organism of blister blight disease Exobasidium vexans is known to be an obligate biotrophic fungus with no alternate host completing its entire life cycle in tea
 The pathogen mainly attacks young, succulent, and tender harvestable leaf and shoot thereby inflicting an enormous effect on the quality and quantity of consumable tea production
-The pathogen reproduces through basidiospores which are commonly known to get dispersed by wind. The basidiospores germinated upon lodging on the surface of susceptible tea leaf surfaces under a humid atmosphere with a minimum relative humidity of 80%
+The pathogen reproduces through basidiospores which are commonly known to get dispersed by wind The basidiospores germinated upon lodging on the surface of susceptible tea leaf surfaces under a humid atmosphere with a minimum relative humidity of 80%
 The infection is facilitated by the formation of infection peg from appressoria either directly penetrating the cuticle of host tissue or penetration through stomata
 The first apparent sign of infection appears in young leaves in the form of pink translucent spots which are considered as the first stage of blister blight infection and are visible after three days of fungal penetration The spots enlarge along with the leaves and approximately reach a diameter of 3–12.5 mm
 In the second stage, the enlarged spots develop into white and velvety convex blister lesions on the lower surface of tea leaf, and on the upper surface, the area with blister lesions becomes sunken resulting in concave depression
 The disease progress to its third stage characterized by the curling of the infected tea leaf, browning of blister lesions, and consequently necrosis of the infected leaf tissue
 The life cycle of blister blight disease is represented in During the off-season, the pathogen is reported to survive on these necrotic leaf parts which facilitate the infection to occur in the subsequent season under favorable climatic conditions In a study was carried out to detect the survival of E 
-vexans during the off-season the presence of basidiospores in the atmosphere was reported indicating the active state of the pathogen throughout the year. However, the spore concentration being very low (10 spores/m3) the basidiospores failed to sporulate
+vexans during the off-season the presence of basidiospores in the atmosphere was reported indicating the active state of the pathogen throughout the year However, the spore concentration being very low (10 spores/m3) the basidiospores failed to sporulate
 Under favorable climatic conditions, the pathogen completes its life cycle within 11 days, although it is reported at times extend to 28 days depending on the prevailing climatic conditions Owing to the short span of the life cycle, multiple generations of the pathogen are completed within a single cropping season
 For the development of blister blight infection sporulation to germination takes place in 4 h to 5 days, germination to penetration takes 4–9 days, penetration to the appearance of visible symptoms takes 3–10 days, development of mature blister and subsequent sporulation takes 11–28 days.
 

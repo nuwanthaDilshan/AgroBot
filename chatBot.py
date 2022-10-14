@@ -17,8 +17,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #open dataset
-f = open('tea_cultivation_dataset2.txt', 'r', errors='ignore')
-m = open('tea_cultivation_dataset1.txt', 'r', errors='ignore')
+f = open('tea_cultivation_dataset1.txt', 'r', errors='ignore')
+m = open('tea_cultivation_dataset2.txt', 'r', errors='ignore')
 
 raw = f.read() #separated sections file
 rawone = m.read()
@@ -172,8 +172,8 @@ def response(user_response):
     a, b = stem_tfidf(all_text, user_response)
     g = cos_sim(a, b)
     # print('\nNate: '+g)
-    print('Nate')
-    print(g)
+    # print('Nate')
+    # print(g)
     return g
 
 #all responses
