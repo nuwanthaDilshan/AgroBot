@@ -6,7 +6,7 @@ import threading
 
 # username = ["You"]
 # ans = ["AgroBot"]
-window_size = "520x520"
+window_size = "428x520"
 
 
 class ChatInterface(Frame):
@@ -95,7 +95,7 @@ class ChatInterface(Frame):
         self.send_button.pack(side=LEFT, ipady=8)
         self.master.bind("<Return>", self.send_message_insert)
 
-        self.last_sent_label(date="No messages sent.")
+        self.last_sent_label(date="No messages send.")
 
     def last_sent_label(self, date):
 
