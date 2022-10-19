@@ -17,30 +17,23 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #open dataset
-f = open('tea_cultivation_dataset1.txt', 'r', errors='ignore')
-m = open('tea_cultivation_dataset2.txt', 'r', errors='ignore')
+f = open('dataset.txt', 'r', errors='ignore')
 
 raw = f.read() #separated sections file
-rawone = m.read()
 
-# print('rawone')
-# print(rawone)
+# print('raw')
+# print(raw)
 
 raw = raw.lower() #convert to lowercase
-rawone = rawone.lower() #convert to lowercase
 
 #separated sections file
 sent_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
 word_tokens = nltk.sent_tokenize(raw) #convert to list of words
 
-
-sent_tokensone = nltk.sent_tokenize(rawone) #convert to list of sentences
-word_tokensone = nltk.sent_tokenize(rawone) #convert to list of words
-
-# print(sent_tokensone)
 print(word_tokens)
 
 lemmer = nltk.stem.WordNetLemmatizer() #Text normalization
+
 
 def LemTokens(tokens):
     return[lemmer.lemmatize(token)for token in tokens]
@@ -84,6 +77,7 @@ small_talk_responses = {
 
 small_talk = small_talk_responses.values()
 small_talk = [str (item) for item in small_talk]
+
 
 def tfidf_cosim_smalltalk(doc, query):
    query = [query]
