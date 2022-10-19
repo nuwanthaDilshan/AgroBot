@@ -26,7 +26,7 @@ class test(unittest.TestCase):
 
 # AgroBot Response test
     def test_Agro(self):
-        self.assertIsInstance(chatBot.response("what is propogation in tea"), str)
+        self.assertIsInstance(chatBot.response("what is Leaf infection"), str)
 
 
 if __name__ == "__main__":

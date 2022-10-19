@@ -167,7 +167,7 @@ def response(user_response):
     g = cos_sim(a, b)
     # print('\nNate: '+g)
     # print('Nate')
-    # print(g)
+    print(g)
     return g
 
 #all responses
