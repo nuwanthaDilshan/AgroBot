@@ -53,11 +53,11 @@ GREETING_RESPONSES = ["hi", "hey", "hii there",
 
 Basic_Q_1 = ("please help", "help me","please help me","can you help me")
 Basic_Ans_1 = ["yes I can", "Tell me", "sure"]
-Basic_Q_2 = ("Okay", "okay","ok")
+Basic_Q_2 = ("okay","ok")
 Basic_Ans_2 = ["Is there anything else to know?"]
-Basic_Q_3 = ("no", "No","not yet", "Not yet","Nop","nop")
+Basic_Q_3 = ("no","not yet","Nop","nop")
 Basic_Ans_3 = ["Okay Thank you Bye", "Have a nice day", "Bye"]
-Basic_Q_4 = ("Yes","yes","yeah","Yeah","Yep","yep")
+Basic_Q_4 = ("yes","yeah","Yep","yep")
 Basic_Ans_4 = ["What","What else", "Tell me"]
 
 
@@ -165,9 +165,9 @@ def cos_sim(x, y): #tf_doc, tf_query
 def response(user_response):
     x, y = stem_tfidf(all_text, user_response)
     g = cos_sim(x, y)
-    # print('\nNate: '+g)
+    print('\nNate: '+g)
     # print('Nate')
-    print(g)
+    # print(g)
     return g
 
 #all responses
