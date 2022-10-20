@@ -144,8 +144,8 @@ def stem_tfidf(doc, query):
    
    return tf_doc, tf_query
 
-def cos_sim(a, b): #tf_doc, tf_query
-   cosineSimilarities = cosine_similarity(a, b).flatten()
+def cos_sim(x, y): #tf_doc, tf_query
+   cosineSimilarities = cosine_similarity(x, y).flatten()
    related_docs_indices = cosineSimilarities.argsort()[:-2:-1]
    
    print(cosineSimilarities[related_docs_indices])
@@ -163,8 +163,8 @@ def cos_sim(a, b): #tf_doc, tf_query
 
 #Generating response lemos
 def response(user_response):
-    a, b = stem_tfidf(all_text, user_response)
-    g = cos_sim(a, b)
+    x, y = stem_tfidf(all_text, user_response)
+    g = cos_sim(x, y)
     # print('\nNate: '+g)
     # print('Nate')
     print(g)
