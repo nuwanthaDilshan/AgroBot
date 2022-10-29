@@ -18,4 +18,4 @@
         nltk.download('wordnet')
 
 ## How to run.
-    Python App.py
+    python App.py
