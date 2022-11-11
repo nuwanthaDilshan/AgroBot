@@ -28,7 +28,6 @@ class test(unittest.TestCase):
     def test_Agro(self):
         self.assertIsInstance(chatBot.response("what is Leaf infection"), str)
 
-
 if __name__ == "__main__":
     unittest.main()
 

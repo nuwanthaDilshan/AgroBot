@@ -20,11 +20,10 @@ warnings.filterwarnings("ignore")
 f = open('dataset.txt', 'r', errors='ignore')
 
 raw = f.read() #separated sections file
+raw = raw.lower() #convert to lowercase
 
 # print('raw')
 # print(raw)
-
-raw = raw.lower() #convert to lowercase
 
 #separated sections file
 sent_tokens = nltk.sent_tokenize(raw) #convert to list of sentences
@@ -44,8 +43,8 @@ def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 
 
-Introduce_Ans = ["My name is AgroBot.", "My name is AgroBot you can called me Agro.", "I'm AgroBot :) ",
-                 "My name is AgroBot. and my nickname is Agro and I am happy to solve your queries :) "]
+Introduce_Ans = ["My name is AgroBot.", "My name is AgroBot you can called me Agro.", "I'm AgroBot",
+                 "My name is AgroBot. and my nickname is Agro and I am happy to solve your queries"]
 GREETING_INPUTS = ("hello", "hi", "hiii", "hii", "hiiii",
                    "hiiii", "greetings", "sup", "what's up", "hey",)
 GREETING_RESPONSES = ["hi", "hey", "hii there",
@@ -157,7 +156,7 @@ def cos_sim(x, y): #tf_doc, tf_query
       return ans
 
    else:
-      k = 'I am sorry, I cannot help you with this one. Hope to in the future. Cheers :)'
+      k = 'I am sorry, I cannot help you with this one. Hope to in the future.'
       return k
 
 
@@ -165,8 +164,8 @@ def cos_sim(x, y): #tf_doc, tf_query
 def response(user_response):
     x, y = stem_tfidf(all_text, user_response)
     g = cos_sim(x, y)
-    print('\nNate: '+g)
-    # print('Nate')
+    print('\nAgroBot: '+g)
+    # print('AgroBot')
     # print(g)
     return g
 

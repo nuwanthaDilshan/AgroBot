@@ -1,3 +1,27 @@
+basic requirement of Tea grows best in warm and humid climates It will tolerate temperatures between 14 and 27°C (57.2–80.6°F) with 18–20°C (64.4–68°F) being optimum 
+Tea plants will not tolerate frost and mean temperatures should not fall below 13°C (55.4°F) or exceed 29°C (84.2°F) Tea grows optimally in deep, well-draining, tropical red soils with an acidic pH between 4.5 and 6.0. 
+Tea requires an average annual rainfall of 1600 mm per year distributed evenly throughout the growing season In growing regions that experience a long dry season, tea plants require shading to increase the humidity around the plants. 
+
+propogation Tea is propagated from seed or rooted leaf cuttings Good quality seeds are selected by immersing in water for 30 minutes and selecting the seeds which sink
+Seeds are commonly germinated by placing them between wet cloths Seeds which successfully germinate are transferred to a nursery bed to grow for 2–3 years 
+Before transplanting to the field, the plants are cut back to a height of 15 cm (6.0 in) Leaf cuttings are also used to establish new tea plantations
+Single node cuttings are taken from the desired variety and rooted in polyethylene bags containing soil by firmly pressing the stem into the soil
+The bags are then placed in a shaded area and watered regularly New tea plants produced from rooted cuttings are usually planted out in the field after 6–9 months
+Tea can be planted as single rows, double rows or as a hedge Plantations established on slopes are planted on contour rows
+Seedlings or cuttings are usually planted 60 cm (24 in) apart, allowing 1.5 m (5 ft) between rows The tea plants are often interplanted with legumes or grasses to conserve soil moisture and prevent soil erosion
+Shade trees are utilized in tea plantations grown at lower altitudes. 
+
+General care and maintenance of tea,Newly planted tea plantations must be kept free from weeds while the tea plants establish Weeding should be done by hand until the canopy closes and shades out weeds 
+Tea plants should be pruned to encourage the production of lateral branches Busjes are shaped by tipping and thinning of branches to create the desired shape 
+Pruning should be maintained throughout the life of the plantation to keep the plants a manageable size and maintain productivity
+pruning is best carried out when the plants are dormant where possible If trees do not have a dormant period then they should be pruned in winter or after the dry period depending on geographic location
+The tree clippings can be left in the centers of the rows to acts as an organic mulch Tea plantations are usually fertilized 2–3 times per year
+The amount of each nutrient added to the soil will depend on the soil’s own deficiencies and should ideally be based on the results of soil testing or by testing the leaves for nutrient deficiencies.
+
+Harvesting Tea is harvested by “plucking” which involves the removal of the youngest leaves at the shoot terminals The terminal bud is removed along with the two leaves directly below (fine plucking) or the bud and three leaves (coarse plucking)
+The younger leaves have the best flavor and removing three leaves increases production but diminishes the overall quality by including an older leaf Tea plants are plucked by hand by graspi.
+
+
 Leaf infection
 Until the advent of blister blight in 1946, there was no leaf disease of my economic importance in Sri Lanka This was considered 
 surprising in view of the humid conditions associated with tea culture, the large volume of leaf of all ages produced by the tea 
@@ -77,7 +101,7 @@ This disease can become more prevalent and severe with increasing elevation
 However, this can be encountered at elevations less than 600 m where high humidity and
 heavy shade levels persist, but this very rarely causes economic losses.
 
-Conditions Favouring the Disease
+Conditions Favouring the Disease blister blight
 Moisture is the most critical factor in causing infections by this fungus A very high
 relativehumidity (85 per cent) is required for the production, release as well as germination
 of spores Mist, cloud and rain, the incidence of blister blight, while desiccation
@@ -94,7 +118,7 @@ view of the very good reasons they were introduced to the tea plantations It wou
 desirable to reduce shade as appropriate by thinning/lopping of established shade with
 the onset of monsoon.
 
-be in Control of
+be in Control of Blister Blight
 The most efficient protection against any disease is the strong natural resistance inherent
 or developed by the plant No cultivars have so far been shown to be totally resistant to
 blister blight Only gradations in susceptibility have been found among different cultivars
@@ -160,7 +184,7 @@ spraying of the fungicides and therefore in the cost of control The benefits acc
 from such a system could be particularly more at the beginning as well at the end of the
 monsoons.
 
-c
+
 Brown blight leaf disease of tea was first recorded in Sri Lanka in 1899 (Gadd, 1948)
 There had been a few reports of considerable damage caused by brown blight in the past,
 Particularly in bushes recovering from pruning Wet weather normally favours brown
@@ -212,7 +236,7 @@ with a blackish margin Occasionally, the spread of the fungus is much more
 diffused and spots may cover a large part of the leaf This second form is more severe
 and can be associated with defoliation.
 
-manage
+manage Cercosporella
 Special control measures are not recommended for leaf diseases of minor economie
 Importance such as Brown Blight, Gray Blight and Cereosporella Leaf Disease With
 regular sprayings being done for blister blight, these three diseases do not pose problems
@@ -305,7 +329,7 @@ it could reach the main stem of the bush causing death of the invaded branch or 
 bush Heavilty infected bushes start collapsing in stages, branch by branch until it
 the loss of the entire bush.
 
-administer
+administer for Thorny stem blight
 Distribution of Thorny stem blight is limited to the Up country districts exceeding 1500
 m (4500 ft) in elevation Certain cultivars of narrow jat tea such as TRI 2142, N2 and
 K145 have been observed to be more afflicted by the disease compared to others.
@@ -358,7 +382,7 @@ as K145, PK2, N2, DTI, UR9, SJ76, etc, grown at higher elevations (>1500 m).
 
 angury for Diffution for Hypoxylon stem bligh
 The first visible symptoms are the yellowing, wilting and scorching Of foliage of an
-entire branch, all following each other in quick succession. When the disease is in an
+entire branch, all following each other in quick succession When the disease is in an
 advanced state, branches with scorched foliage or the consequent empty spæes created
 by the fallen branches are conspicuous from far Closer inspection of an infected bush
 would reveal that most of the branches that are in advanced stages of infection
@@ -425,7 +449,7 @@ Wood rot sets in from the patches thus exposed very often these attacks take pla
 centre of the bush and go unnoticed until the time of pruning By this time the canker
 would have reached an advanced stage with associated wood rotting.
 
-rule
+rule for stem and branch canker
 field observations and experimental data indicate variations in the susceptibility of
 cultivars to this disease For example cultivars like TRI 2023 and 2026 were found to be
 very susceptible while TRI 2025 and TRI 2027 were not
@@ -454,13 +478,13 @@ young plantations and the damage causes death of plants in the age group of 2-8 
 older plantations, the damage due to branch die-back is common, but very seldom is the
 entire bush killed The disease has so tar not been found in nursery plants.
 
-placement
+placement for COLLAR AND BRANCH CANKER
 The disease is fairly widespread in the planting districts of Badulla, Haputale, Madulsima,
 Udapussellawa, Nuwara Eliya and in the drier parts of Dimbula Thus the disease appears
 to be confined to high elevations and to the NE monsoon sector in particular, preferring
 cool dry conditions for its activity.
 
-evidence
+evidence for COLLAR AND BRANCH CANKER
 The disease shows out plainly from a distance, the first obvious synptoms of attack
 being brown foliage of the affected branch or of an entire bush, standing
 out in contrast to the green foliage or the surrounding healthy bushes These symptoms
@@ -586,7 +610,7 @@ the disease is not considered to depend very heavily on airborne spores for its 
 
 warning for red root disease
 The above ground symptoms of all root diseases are alike and arc in keeping with the
-general description earlier in this section. affected bushes should, therefore, be dug
+general description earlier in this section affected bushes should, therefore, be dug
 up with their roots and examined tor the presence of any fungal mycelium on the root
 surface by carefully washing or scraping with a knife in order to identify the disease
 
@@ -613,9 +637,9 @@ robusta and Tephrosia vogelii are some of the common alternative host plants fou
 tea estates It also attacks jungle trees like symplocos spicata and Doona zeylamca.
 
 reign for red root disease
-Areas affected by Poria should undergo a thorough cleaning as the first step. Remove all
+Areas affected by Poria should undergo a thorough cleaning as the first step Remove all
 the dead and dying bushes, including all those that show any slight yellowing of the
-foliage, surrouding the visibly affected patch. Examine the roots of the uprooted plants
+foliage, surrouding the visibly affected patch Examine the roots of the uprooted plants
 for Pona mycelium to confirm infection
 
 Any stumps of trees found within the infected patch must also be uprooted The patch
@@ -768,7 +792,7 @@ stumps below ground level helps in reducing the possibility of infection. When m
 shade trees die due to lightning, take steps to remove them early to prevent potential
 disease spots.
 
-BROut€ ROOT DISEASE (Phellinus noxius)
+broute ROOT DISEASE (Phellinus noxius)
 Causal organism was formerly known as Fomes noxius Corner Petch deseribed this to
 be the earliest known root disease of tea The first record in Sri Lanka was in 1905 The
 Brown root disease is a primary root disease, typically associated with the stumps of old
@@ -822,7 +846,7 @@ primary pest, especially on account of shifting cultivation patterns of tea and 
 the novel intercropping systems.
 
 issue of whtee root 
-This is basically a disease confined to Low country. With the shifting of land use in the
+This is basically a disease confined to Low country With the shifting of land use in the
 Low country from rubber to tea, and their inter-planting that has been taking place in the
 recent past, the disease is already assuming a great importance in tea.
 
@@ -883,7 +907,7 @@ This root disease has been recorded on Albizzia, Gliricidia, Erythrina and Tephr
 candida.
 
 sway for hallmark for violet root
-All the infected and debilitated bushes should be uprooted and burnt. As an immediate
+All the infected and debilitated bushes should be uprooted and burnt As an immediate
 measure, it is necessary to improve aeration of the soil in the anected area through proper
 drainage Concurrently, all possible measures should be taken to improve the physical
 u)nditrons ofthe soil by green manuring and by growing deep rooted shade tree species
@@ -894,8 +918,8 @@ Though this is basically identified a root disease the causative fungus Lasiodip
 theohmmac Pat (formerly, Botryvdtplodja theobmmae). can attack any part of the tea
 plant young or old, particularly when the plant is debilitated by other causes.
 
-Distribution
-The organism has a very widespread occurrence. But the incidence of the diseaseis
+Distribution for DIPLODIA DISEASE
+The organism has a very widespread occurrence But the incidence of the diseaseis
 governed by other causes like poor soil conditions and low starch reserves, which can
 render the tea plant weaker.
 
@@ -922,7 +946,7 @@ of prunings is practised in an area, it is to add some lime before covering
 the prunings with soil Most of all, it is necessary to improve the general health and the
 vigour or the bush by judicious cultural operations and manurial treatments.
 
-MISCELLANEOUS DISEASES
+
 RED RUST (Cephaleuros parasiticus)
 Red rust caused by an alga, Cephaleuros parasiticus Karst, unlike the majority of
 Other diseases are caused by fungi As a problem, this is confined to the Low country
@@ -937,7 +961,7 @@ be another factor favouring the disease It has been observed that the branches w
 by attacks of Macrophoma are easily infected by this alga.
 
 flickers for MISCELLANEOUS
-Infection takes place during the sporulation period, from April to July in each year. Spores
+Infection takes place during the sporulation period, from April to July in each year Spores
 are dispersed cither by wind or rain. Once the spore is deposited on a green shoot or leaf,
 it starts to geminate, growing into the host tissue There, it multiplies at the expense of
 the host cells and penetrates the deeper layers Of bark Whilst this is happening, the tea

@@ -141,7 +141,7 @@ class ChatInterface(Frame):
         self.text_box.configure(state=DISABLED)
         self.text_box.see(END)
         self.last_sent_label(
-            str(time.strftime("Last message sent: " + '%B %d, %Y' + ' at ' + '%I:%M %p')))
+            str(time.strftime("Last message send: " + '%B %d, %Y' + ' at ' + '%I:%M %p')))
         self.entry_field.delete(0, END)
         time.sleep(0)
         t2 = threading.Thread(target=self.playResponse, args=(ob,))
