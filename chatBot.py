@@ -10,7 +10,7 @@ import numpy as np
 import nltk
 
 # # * first-time use only
-# nltk.download('punkt') 
+# nltk.download('punkt')
 # nltk.download('wordnet')
 
 import warnings
